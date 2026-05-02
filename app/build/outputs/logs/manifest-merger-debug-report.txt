@@ -1,9 +1,16 @@
 -- Merging decision tree log ---
+meta-data#com.google.android.geo.API_KEY
+INJECTED from C:\FigaTram\app\src\main\AndroidManifest.xml:34:9-36:47
+	android:value
+		INJECTED from C:\FigaTram\app\src\main\AndroidManifest.xml
+		ADDED from C:\FigaTram\app\src\main\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from C:\FigaTram\app\src\main\AndroidManifest.xml:35:13-58
 manifest
-ADDED from C:\FigaTram\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from C:\FigaTram\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from C:\FigaTram\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from C:\FigaTram\app\src\main\AndroidManifest.xml:2:1-35:12
+ADDED from C:\FigaTram\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\FigaTram\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\FigaTram\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\FigaTram\app\src\main\AndroidManifest.xml:2:1-39:12
 MERGED from [com.google.maps.android:maps-compose:4.3.0] C:\Users\Michael Sumaneev\.gradle\caches\8.9\transforms\f90abad52399c7c1bf0834605aede95b\transformed\maps-compose-4.3.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.maps.android:maps-ktx:5.0.0] C:\Users\Michael Sumaneev\.gradle\caches\8.9\transforms\7829a2ed6fbfc6c2f2d9e67676d186c6\transformed\maps-ktx-5.0.0\AndroidManifest.xml:18:1-23:12
 MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\Michael Sumaneev\.gradle\caches\8.9\transforms\3d27f4aa4f190d7fc7e75254118af9f7\transformed\play-services-maps-18.2.0\AndroidManifest.xml:17:1-44:12
@@ -115,8 +122,8 @@ MERGED from [androidx.work:work-runtime:2.9.0] C:\Users\Michael Sumaneev\.gradle
 	android:name
 		ADDED from C:\FigaTram\app\src\main\AndroidManifest.xml:8:22-74
 application
-ADDED from C:\FigaTram\app\src\main\AndroidManifest.xml:10:5-33:19
-INJECTED from C:\FigaTram\app\src\main\AndroidManifest.xml:10:5-33:19
+ADDED from C:\FigaTram\app\src\main\AndroidManifest.xml:10:5-37:19
+INJECTED from C:\FigaTram\app\src\main\AndroidManifest.xml:10:5-37:19
 MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\Michael Sumaneev\.gradle\caches\8.9\transforms\3d27f4aa4f190d7fc7e75254118af9f7\transformed\play-services-maps-18.2.0\AndroidManifest.xml:36:5-42:19
 MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\Michael Sumaneev\.gradle\caches\8.9\transforms\3d27f4aa4f190d7fc7e75254118af9f7\transformed\play-services-maps-18.2.0\AndroidManifest.xml:36:5-42:19
 MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Michael Sumaneev\.gradle\caches\8.9\transforms\66c0c15c4fd2b2d40ebc4121d8537ee6\transformed\play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19

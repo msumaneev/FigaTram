@@ -14,6 +14,13 @@ if (versionPropsFile.canRead()) {
     versionProps.load(FileInputStream(versionPropsFile))
 }
 
+val localPropsFile = file("../local.properties")
+val localProps = Properties()
+if (localPropsFile.canRead()) {
+    localProps.load(FileInputStream(localPropsFile))
+}
+val mapsApiKey = localProps["MAPS_API_KEY"]?.toString() ?: ""
+
 val vCode = versionProps["VERSION_CODE"]?.toString()?.toInt() ?: 1
 val vName = versionProps["VERSION_NAME"]?.toString() ?: "1.0.0"
 
@@ -32,6 +39,8 @@ android {
         vectorDrawables {
             useSupportLibrary = true
         }
+        
+        manifestPlaceholders["MAPS_API_KEY"] = mapsApiKey
     }
 
     buildTypes {
