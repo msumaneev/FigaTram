@@ -1,3 +1,8 @@
+---
+description: Auto-versioning and architecture rules
+globs: *
+alwaysApply: true
+---
 # Project Rules
 1. **Versioning**: All builds must be properly versioned. The `version.properties` file must be used to manage `VERSION_CODE` and `VERSION_NAME`. The Gradle `bumpVersion` task automatically increments the version on every `assembleDebug` or `installDebug`. You must not hardcode versions in `build.gradle.kts`.
 2. **Architecture**: Follow Clean Architecture and MVVM. Use Kotlin Coroutines and Jetpack Compose.
