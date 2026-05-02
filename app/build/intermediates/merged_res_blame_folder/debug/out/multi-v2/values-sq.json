@@ -4,24 +4,7 @@
             "outputFile": "com.figatram.app-mergeDebugResources-2:/values-sq/values-sq.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Michael Sumaneev\\.gradle\\caches\\9.3.1\\transforms\\decd8ba5fe208abb853060976e7eca70\\workspace\\transformed\\play-services-basement-18.0.0\\res\\values-sq\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "195",
-                        "endColumns": "124",
-                        "endOffsets": "319"
-                    },
-                    "to": {
-                        "startLines": "19",
-                        "startColumns": "4",
-                        "startOffsets": "2081",
-                        "endColumns": "128",
-                        "endOffsets": "2205"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Michael Sumaneev\\.gradle\\caches\\9.3.1\\transforms\\82200079aced98b09259b9883f611771\\workspace\\transformed\\ui-release\\res\\values-sq\\values-sq.xml",
+                    "source": "C:\\Users\\Michael Sumaneev\\.gradle\\caches\\8.9\\transforms\\74d9a7120a8b2bbd278ed20a8e47e2b8\\transformed\\ui-release\\res\\values-sq\\values-sq.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,24 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Michael Sumaneev\\.gradle\\caches\\9.3.1\\transforms\\fb91a07384e96dbbafb12871f3575189\\workspace\\transformed\\core-1.12.0\\res\\values-sq\\values-sq.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,154,256,354,451,559,670,792",
-                        "endColumns": "98,101,97,96,107,110,121,100",
-                        "endOffsets": "149,251,349,446,554,665,787,888"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,97",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,204,306,404,501,609,720,10617",
-                        "endColumns": "98,101,97,96,107,110,121,100",
-                        "endOffsets": "199,301,399,496,604,715,837,10713"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Michael Sumaneev\\.gradle\\caches\\9.3.1\\transforms\\0a5b81996d447a10dc07ad50392f25dc\\workspace\\transformed\\play-services-base-18.0.1\\res\\values-sq\\values.xml",
+                    "source": "C:\\Users\\Michael Sumaneev\\.gradle\\caches\\8.9\\transforms\\66c0c15c4fd2b2d40ebc4121d8537ee6\\transformed\\play-services-base-18.0.1\\res\\values-sq\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -72,7 +38,41 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Michael Sumaneev\\.gradle\\caches\\9.3.1\\transforms\\83833ce798e3af3536b9dad1224605fe\\workspace\\transformed\\material3-release\\res\\values-sq\\values-sq.xml",
+                    "source": "C:\\Users\\Michael Sumaneev\\.gradle\\caches\\8.9\\transforms\\4eccebb3db6316609d0f9b0d6511da1c\\transformed\\play-services-basement-18.0.0\\res\\values-sq\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "124",
+                        "endOffsets": "319"
+                    },
+                    "to": {
+                        "startLines": "19",
+                        "startColumns": "4",
+                        "startOffsets": "2081",
+                        "endColumns": "128",
+                        "endOffsets": "2205"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Michael Sumaneev\\.gradle\\caches\\8.9\\transforms\\c5d860b86343545480cbf9574717fb5b\\transformed\\core-1.12.0\\res\\values-sq\\values-sq.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,154,256,354,451,559,670,792",
+                        "endColumns": "98,101,97,96,107,110,121,100",
+                        "endOffsets": "149,251,349,446,554,665,787,888"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,97",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,204,306,404,501,609,720,10617",
+                        "endColumns": "98,101,97,96,107,110,121,100",
+                        "endOffsets": "199,301,399,496,604,715,837,10713"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Michael Sumaneev\\.gradle\\caches\\8.9\\transforms\\820337baa7a35c4480ee00d7ac565769\\transformed\\material3-release\\res\\values-sq\\values-sq.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -89,7 +89,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Michael Sumaneev\\.gradle\\caches\\9.3.1\\transforms\\d9e0052204c04375a2125791c847b2cf\\workspace\\transformed\\foundation-release\\res\\values-sq\\values-sq.xml",
+                    "source": "C:\\Users\\Michael Sumaneev\\.gradle\\caches\\8.9\\transforms\\d138e8d38d2e92278a9f0ec52dc280f4\\transformed\\foundation-release\\res\\values-sq\\values-sq.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

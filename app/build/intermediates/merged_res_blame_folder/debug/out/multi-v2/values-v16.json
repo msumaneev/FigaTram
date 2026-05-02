@@ -4,7 +4,7 @@
             "outputFile": "com.figatram.app-mergeDebugResources-2:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Michael Sumaneev\\.gradle\\caches\\9.3.1\\transforms\\fb91a07384e96dbbafb12871f3575189\\workspace\\transformed\\core-1.12.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\Michael Sumaneev\\.gradle\\caches\\8.9\\transforms\\c5d860b86343545480cbf9574717fb5b\\transformed\\core-1.12.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -4,6 +4,19 @@ plugins {
     id("com.google.devtools.ksp")
 }
 
+import java.util.Properties
+import java.io.FileInputStream
+import java.io.FileWriter
+
+val versionPropsFile = file("../version.properties")
+val versionProps = Properties()
+if (versionPropsFile.canRead()) {
+    versionProps.load(FileInputStream(versionPropsFile))
+}
+
+val vCode = versionProps["VERSION_CODE"]?.toString()?.toInt() ?: 1
+val vName = versionProps["VERSION_NAME"]?.toString() ?: "1.0.0"
+
 android {
     namespace = "com.figatram"
     compileSdk = 34
@@ -12,8 +25,8 @@ android {
         applicationId = "com.figatram"
         minSdk = 26
         targetSdk = 34
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = vCode
+        versionName = vName
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
@@ -91,4 +104,42 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+}
+
+tasks.register("bumpVersion") {
+    doLast {
+        val propsFile = file("../version.properties")
+        if (propsFile.canRead()) {
+            val props = Properties()
+            props.load(FileInputStream(propsFile))
+            val currentCode = props["VERSION_CODE"]?.toString()?.toInt() ?: 1
+            val currentName = props["VERSION_NAME"]?.toString() ?: "1.0.0"
+            
+            // Increment version code
+            val newCode = currentCode + 1
+            
+            // Increment patch version in versionName (e.g., 1.0.0 -> 1.0.1)
+            val parts = currentName.split(".")
+            val newName = if (parts.size == 3) {
+                "${parts[0]}.${parts[1]}.${(parts[2].toInt() + 1)}"
+            } else {
+                currentName
+            }
+            
+            props["VERSION_CODE"] = newCode.toString()
+            props["VERSION_NAME"] = newName
+            
+            propsFile.outputStream().use { os ->
+                props.store(os, null)
+            }
+            println("Bumped version to $newName ($newCode)")
+        }
+    }
+}
+
+// Automatically bump version before assembleDebug or installDebug
+tasks.whenTaskAdded {
+    if (name == "assembleDebug" || name == "installDebug") {
+        dependsOn("bumpVersion")
+    }
 }
